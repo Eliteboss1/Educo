@@ -44,20 +44,20 @@ const Hero = () => {
                 {/* wrapper */}
                 <div>
                     {/* container */}
-                    <div className="flex px-28 py-16 justify-center">
+                    <div className="grid grid-cols-2 px-28 py-16 justify-center">
                         {/* left side: text and input field */}
                         <div className="flex flex-col gap-8">
-                            <h1 className="text-6xl font-VisbyBold">Learn From Anywhere in the World</h1>
-                            <p className="font-visbyRegular text-lg">We provide quality online courses with proper<br /> guidance. Our mentors are highly skilled and<br /> experienced in their fields</p>
+                            <h1 className="text-6xl font-VisbyBold w-[41rem]">Learn From Anywhere in the World</h1>
+                            <p className="font-visbyRegular text-xl">We provide quality online courses with proper<br /> guidance. Our mentors are highly skilled and<br /> experienced in their fields</p>
                             <div className="flex items-center">
-                                <input type="text" placeholder="Search for courses" className="border-black border-2 w-[576px] h-[80px] rounded-lg rounded-r-none" />
-                                <button className="bg-black text text-white p-3 rounded-lg rounded-l-none"><HiOutlineMagnifyingGlass /></button>
+                                <input type="text" placeholder="Search for courses" className="border-black border-2 w-[462px] h-[56px] rounded-2xl rounded-r-none placeholder:px-4 " />
+                                <button className="bg-black text text-white p-[1.26rem] rounded-2xl rounded-l-none"><HiOutlineMagnifyingGlass /></button>
                             </div>
                         </div>
 
 
                         {/* right side: image */}
-                        <div className="">
+                        <div className="-mt-12 ml-10">
                             <img src={prettyGirl} alt="" />
                         </div>
                     </div>

@@ -4,7 +4,7 @@ import Footer from "../src/components/Footer/index";
 import HeroSection from "../src/components/HeroSection/Hero";
 export default function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/*Navigation*/}
       <div>
         <Navigation />
