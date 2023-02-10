@@ -25,12 +25,12 @@ const footerHero = () => {
         <section className="bg-white h-20 w-screen -mt-14 font-VisbyRegular">
             {/* wrapper */}
             <div className="grid grid-cols-4 w-max justify-between gap-10 mt-14">
-            {items.map((row) => (
-                <div className="flex gap-4 items-center" key={row.title}>
-                    <img src={row.image} alt="" className="w-[25%]"/>
-                    <p>{row.title}</p>
-                </div>
-            ))}
+                {items.map((row) => (
+                    <div className="flex gap-4 items-center" key={row.title}>
+                        <img src={row.image} alt="" className="w-[25%]" />
+                        <p>{row.title}</p>
+                    </div>
+                ))}
             </div>
         </section>
     )
