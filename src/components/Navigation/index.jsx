@@ -7,10 +7,10 @@ const Navigation = () => {
         <img src={navLogo} className=" py-[34.5px] " />
       </div>
       <div className="flex-1">
-        <ul className="font-VisbyRegular text-lg flex gap-[40px] cursor-pointer leading-[116%]">
-          <li>Home</li>
-          <li>Courses</li>
-          <li>About us</li>
+        <ul className="font-VisbyRegular text-lg flex gap-[40px] leading-[116%]">
+          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer">Courses</li>
+          <li className="cursor-pointer">About us</li>
         </ul>
       </div>
       <div className="flex py-[21px] ml-28">
