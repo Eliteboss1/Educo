@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 import { prettyGirl } from "../../utils";
+import FooterHero from '../../partials/FooterHero';
 
 const Hero = () => {
     return (
@@ -60,6 +61,7 @@ const Hero = () => {
                         <div className="-mt-12 ml-10">
                             <img src={prettyGirl} alt="" />
                         </div>
+                    <FooterHero/>
                     </div>
                 </div>
             </div>

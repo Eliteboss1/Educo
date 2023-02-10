@@ -14,9 +14,9 @@ export default function App() {
         <HeroSection />
       </div>
       {/*Footer*/}
-      <div>
+      {/* <div>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
