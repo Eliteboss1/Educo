@@ -2,12 +2,12 @@ import React from "react";
 import { navLogo } from "../../utils";
 const Navigation = () => {
   return (
-    <div className=" flex justify-between xl:pl-[48px] xl:pr-[77.91px] md:pl-[20px] md:pr-[20px]">
+    <div className="flex justify-between items-center xl:pl-[48px] xl:pr-[77.91px] md:pl-[20px] md:pr-[20px]">
       <div>
         <img src={navLogo} className=" py-[34.5px] " />
       </div>
       <div className="py-[39px]">
-        <ul className="flex gap-[40px] xl:text-[24px] md:text-[20px] font-[500] font-[visby] cursor-pointer leading-[116%]">
+        <ul className="font-VisbyRegular text-lg flex gap-[40px] xl:text-[24px] md:text-[20px] font-[500] cursor-pointer leading-[116%]">
           <li>Home</li>
           <li>Courses</li>
           <li>About us</li>
