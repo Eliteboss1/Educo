@@ -3,13 +3,13 @@ import { Fotlogo } from "../../utils";
 
 const Footer = () => {
   return (
-    <div className="bg-black pt-[64px] pb-[224px] px-[50px] xl:px-0  font-[visby]">
+    <div className="bg-black pt-[64px] pb-[224px] px-[50px] xl:px-0   font-[visby]">
       <div>
         <div className="flex ">
           <div className="xl:pl-[126.19px]  pr-[100px] lg:pr-[350px] xl:pr-[449px]">
             <img src={Fotlogo} />
           </div>
-          <div className=" grid  grid-cols-3 xl:gap-24 gap-10">
+          <div className=" grid md:grid-cols-3 xl:gap-24 gap-10">
             <div className="">
               <p className="text-[white] font-[500] text-[20px] ">Product</p>
               <ul className="text-white pt-10 text-[18px]  flex flex-col gap-[18px] font-[500]">
@@ -38,13 +38,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="px-[120px]">
+      <div className="px-[120px] flex justify-between pt-44">
         <div>
-          <span className="text-white text-[18px]">Copyright © 2022 Orion</span>
+          <span className="text-[#595959] text-[18px]">
+            Copyright © 2022 Orion
+          </span>
         </div>
         <div>
           {" "}
-          <p className="text-[#7C7C7C] text-[18px]">
+          <p className="text-[#ffffff] text-[18px]">
             <span className="text-[#595959]">All Rights Reserved</span> | Terms
             and Conditions | Privacy Policy{" "}
           </p>{" "}
