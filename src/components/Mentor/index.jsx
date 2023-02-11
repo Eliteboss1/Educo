@@ -1,5 +1,5 @@
 import React from "react";
-import { learningimg, mentorimg } from "../utils";
+import { learningimg, mentorimg } from "../../utils";
 
 const mentor = () => {
   return (

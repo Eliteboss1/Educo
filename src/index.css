@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'Visby Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Regular'), url('./assets/fonts/VisbyRegular.woff') format('woff');
+    }
+
+    @font-face {
+    font-family: 'Visby Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Bold'), url('./assets/fonts/VisbyBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Light'), url('./assets/fonts/VisbyLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Medium'), url('./assets/fonts/VisbyMedium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Semibold'), url('./assets/fonts/VisbySemibold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Visby Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Visby Thin'), url('./assets/fonts/VisbyThin.woff') format('woff');
+    }

@@ -9,6 +9,12 @@ import bookIcon from "../assets/icons/Frame 38252.svg";
 import dollarIcon from "../assets/icons/Frame 38252 (1).svg";
 import worldIcon from "../assets/icons/Frame 38252 (2).svg";
 import goodIcon from "../assets/icons/Frame 38252 (3).svg";
+import LadyCta from "../assets/images/ladycta.png";
+import Course from "../assets/icons/courses.png";
+import Lifetime from "../assets/icons/lifetime.png";
+import Support from "../assets/icons/support.png";
+import Value from "../assets/icons/value.png";
+
 export {
   navLogo,
   Fotlogo,
@@ -21,4 +27,9 @@ export {
   dollarIcon,
   worldIcon,
   goodIcon,
+  Course,
+  Lifetime,
+  Support,
+  Value,
+  LadyCta,
 };

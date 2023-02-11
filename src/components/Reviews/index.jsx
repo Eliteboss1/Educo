@@ -1,5 +1,5 @@
 import React from "react";
-import { unversitiesimg } from "../utils";
+import { unversitiesimg } from "../../utils";
 
 const reviews = () => {
   return (
