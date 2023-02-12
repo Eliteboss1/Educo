@@ -9,7 +9,7 @@ const reviews = () => {
       </h1>
       <div className="pt-8"></div>
       <div>
-        <h1 className="text-center text-[48px] font-bold leading-10">
+        <h1 className="text-center text-5xl font-VisbyBold font-bold leading-10">
           Over 1000+ Universities Recommend Us
         </h1>
         <div className="pt-8 flex justify-center">
