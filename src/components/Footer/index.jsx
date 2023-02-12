@@ -3,7 +3,7 @@ import { Fotlogo } from "../../utils";
 
 const Footer = () => {
   return (
-    <div className="bg-black pt-[64px] pb-[224px] px-[50px] xl:px-0   font-[visby]">
+    <div className="bg-black pt-16 pb-[224px] px-12 xl:px-0 font-VisbyRegular">
       <div>
         <div className="flex ">
           <div className="xl:pl-[126.19px]  pr-[100px] lg:pr-[350px] xl:pr-[449px]">
