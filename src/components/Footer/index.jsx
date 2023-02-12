@@ -12,24 +12,24 @@ const Footer = () => {
           <div className=" grid md:grid-cols-3 xl:gap-24 gap-10">
             <div className="">
               <p className="text-[white] font-medium text-xl font-VisbyBold">Product</p>
-              <ul className="text-white pt-10 text-[18px]  flex flex-col gap-[18px] font-[500]">
-                <li>Courses</li>
-                <li>Pricing</li>
-                <li>Reviews</li>
-                <li>Become a Mentor</li>
+              <ul className="text-white pt-10 text-[18px]  flex flex-col gap-[18px] font-medium">
+                <li className="cursor-pointer">Courses</li>
+                <li className="cursor-pointer">Pricing</li>
+                <li className="cursor-pointer">Reviews</li>
+                <li className="cursor-pointer">Become a Mentor</li>
               </ul>
             </div>
             <div>
               <p className="text-[white] font-medium text-xl font-VisbyBold">Company</p>
-              <ul className="text-white pt-10 text-lg font-[500]  flex flex-col gap-[18px]">
-                <li>About</li>
-                <li>Contact us</li>
-                <li>Careers</li>
+              <ul className="text-white pt-10 text-lg font-medium flex flex-col gap-[18px]">
+                <li className="cursor-pointer">About</li>
+                <li className="cursor-pointer">Contact us</li>
+                <li className="cursor-pointer">Careers</li>
               </ul>
             </div>
             <div>
               <p className="text-[white] font-medium text-xl font-VisbyBold">Contact us</p>
-              <ul className="text-white pt-10 text-[18px] font-[500]  flex flex-col gap-[18px]">
+              <ul className="text-white pt-10 text-lg font-medium  flex flex-col gap-[18px]">
                 <li>contact@educo.com</li>
                 <li>(234) 3677 5890</li>
                 <li>64 Rashid Estate</li>
