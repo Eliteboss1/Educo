@@ -3,13 +3,13 @@ import { learningimg, mentorimg } from "../../utils";
 
 const mentor = () => {
   return (
-    <div className="font-[visby] px-24">
+    <div className="font-visbyRegular px-24">
       <div className="flex">
-        <div>
+        <div className="flex-1">
           <img src={mentorimg} />
         </div>
-        <div className="pl-[112px] w-[513px]  ">
-          <h1 className="text-[48px] font-bold leading-[61.34px] ">
+        <div className="flex-1  ">
+          <h1 className="text-5xl font-bold leading-[61.34px] ">
             Want to share your Knowledge? Join as a Mentor
           </h1>
           <p className="pt-8 font-medium    text-[20px]">
