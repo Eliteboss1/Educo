@@ -24,21 +24,21 @@ const mentor = () => {
         </div>
       </div>
       <div className="flex pt-36">
-        <div className=" w-[529px]  ">
-          <h1 className="text-[48px] font-bold leading-[61.34px] ">
+        <div className="flex-1">
+          <h1 className="text-5xl font-bold font-VisbyBold leading-[61.34px] ">
             Transform your life through Learning
           </h1>
-          <p className="pt-8 font-medium    text-[20px]">
+          <p className="pt-8 font-light font-VisbyRegular text-xl">
             Learners around the world are launching new careers, advancing in
             their fields, and enriching their lives.
           </p>
           <div className="pt-8">
-            <button className=" bg-black text-white text-2xl font-medium  h-16  w-[237px]   rounded-[10px] border-[1px] border-solid border-black">
+            <button className=" bg-black text-white text-2xl font-VisbyLight font-medium  h-16  w-[237px]   rounded-[10px] border-[1px] border-solid border-black">
               Find out how
             </button>
           </div>
         </div>
-        <div className="pl-28">
+        <div className="pl-28 flex-1">
           <img src={learningimg} />
         </div>
       </div>
