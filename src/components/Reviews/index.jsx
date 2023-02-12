@@ -3,8 +3,8 @@ import { unversitiesimg } from "../../utils";
 
 const reviews = () => {
   return (
-    <div className="pt-48 pb-[182px] font-[visby]">
-      <h1 className="text-center text-[48px] font-bold leading-10">
+    <div className="pt-48 pb-[182px] font-VisbyRegular">
+      <h1 className="text-center text-5xl font-VisbyBold font-bold leading-10">
         What Our students say about Us
       </h1>
       <div className="pt-8"></div>
