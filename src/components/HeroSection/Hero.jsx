@@ -48,13 +48,13 @@ const Hero = () => {
           <div className="grid grid-cols-2 px-28 py-16 justify-center">
             {/* left side: text and input field */}
             <div className="flex flex-col gap-8">
-              <h1 className="text-6xl font-VisbyBold w-[41rem]">
+              <h1 className="text-6xl font-VisbyBold w-[41rem] leading-[77.12px]">
                 Learn From Anywhere in the World
               </h1>
-              <p className="font-visbyRegular text-xl">
+              <p className="font-visbyRegular text-xl leading-7">
                 We provide quality online courses with proper
                 <br /> guidance. Our mentors are highly skilled and
-                <br /> experienced in their fields
+                <br /> experienced in their fields.
               </p>
               <div className="flex items-center">
                 <input
