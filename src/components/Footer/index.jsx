@@ -30,7 +30,7 @@ const Footer = () => {
             <div>
               <p className="text-[white] font-medium text-xl font-VisbyBold">Contact us</p>
               <ul className="text-white pt-10 text-lg font-medium  flex flex-col gap-[18px]">
-                <li>contact@educo.com</li>
+                <li><a href="mailto:contact@educo.com">contact@educo.com</a></li>
                 <li>(234) 3677 5890</li>
                 <li>64 Rashid Estate</li>
               </ul>
@@ -47,8 +47,11 @@ const Footer = () => {
         <div>
           {" "}
           <p className="text-[#ffffff] text-[18px]">
-            <span className="text-[#595959]">All Rights Reserved</span> | Terms
-            and Conditions | Privacy Policy{" "}
+            <span className="text-[#595959]">All Rights Reserved</span>
+            <span className="mx-1">|</span>
+            <span className="cursor-pointer">  Terms and Conditions</span>
+            <span className="mx-1">|</span> 
+            <span className="cursor-pointer">Privacy Policy{" "}</span>
           </p>{" "}
         </div>
       </div>
