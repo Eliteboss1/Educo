@@ -31,7 +31,7 @@ const Footer = () => {
               <p className="text-[white] font-medium text-xl font-VisbyBold">Contact us</p>
               <ul className="text-white pt-10 text-lg font-medium  flex flex-col gap-[18px]">
                 <li><a href="mailto:contact@educo.com">contact@educo.com</a></li>
-                <li>(234) 3677 5890</li>
+                <li><a href="tel:+23436775890">(234) 3677 5890</a></li>
                 <li>64 Rashid Estate</li>
               </ul>
             </div>
