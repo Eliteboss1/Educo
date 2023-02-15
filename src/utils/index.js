@@ -16,7 +16,10 @@ import Support from "../assets/icons/support.png";
 import Value from "../assets/icons/value.png";
 import Stars from "../assets/icons/Frame 9.svg";
 import leftArrow from "../assets/icons/Frame 38276.svg";
-// import rightArrow from "../assets/icons/Educo (39).zip";
+import rightArrow from "../assets/icons/Frame 38270.svg";
+import prettySmile from "../assets/images/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction-removebg 1.png";
+import chillSmile from "../assets/images/portrait-cheerful-handsome-man-keeps-hands-together-smiles-broadly-dressed-elegant-shirt-3-removebg 1.png";
+import lastSmile from "../assets/images/a/handsome-young-businessman-with-crossed-arms-smiling-confident-2-removebg 1.png";
 
 export {
   navLogo,
@@ -37,5 +40,8 @@ export {
   LadyCta,
   Stars,
   leftArrow,
-  // rightArrow,
+  rightArrow,
+  prettySmile,
+  chillSmile,
+  lastSmile,
 };
