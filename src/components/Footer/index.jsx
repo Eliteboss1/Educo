@@ -49,9 +49,9 @@ const Footer = () => {
           <p className="text-[#ffffff] text-[18px]">
             <span className="text-[#595959]">All Rights Reserved</span>
             <span className="mx-1">|</span>
-            <span className="cursor-pointer">  Terms and Conditions</span>
+            <span className="cursor-pointer border-b">Terms and Conditions</span>
             <span className="mx-1">|</span> 
-            <span className="cursor-pointer">Privacy Policy{" "}</span>
+            <span className="cursor-pointer border-b">Privacy Policy{" "}</span>
           </p>{" "}
         </div>
       </div>
