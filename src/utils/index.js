@@ -14,6 +14,9 @@ import Course from "../assets/icons/courses.png";
 import Lifetime from "../assets/icons/lifetime.png";
 import Support from "../assets/icons/support.png";
 import Value from "../assets/icons/value.png";
+import Stars from "../assets/icons/Frame 9.svg";
+import leftArrow from "../assets/icons/Frame 38276.svg";
+// import rightArrow from "../assets/icons/Educo (39).zip";
 
 export {
   navLogo,
@@ -32,4 +35,7 @@ export {
   Support,
   Value,
   LadyCta,
+  Stars,
+  leftArrow,
+  // rightArrow,
 };
